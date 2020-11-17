@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 import ParticlesBg  from "particles-bg";
 
 class Header extends Component {
-  render() {
+   constructor(){
+      super();
+      this.forceUpdateHandler = this.forceUpdateHandler.bind(this);
+    };
+    
+    forceUpdateHandler(){
+      this.forceUpdate();
+    };
+   render() {
 
     if(this.props.data){
        var project = this.props.data.project;
@@ -15,9 +23,64 @@ class Header extends Component {
       })
     }
 
+
+
+
+
+// ===============================================
+// PARTICLE CUSTOMIZATION CONFIG 
+// ===============================================
+
+// Chanhge type to "custom" in ParticlesBg component below and adjust params in config
+
+   // to go back to preset, change the type to:
+
+// "color"
+// "ball"
+// "lines"
+// "thick"
+// "circle"
+// "cobweb"
+// "polygon"
+// "square"
+// "tadpole"
+// "fountain"
+// "random"
+// "custom"
+
+
+
+// Uncomment code below and adjust accordingly
+
+    let config = {
+      num: [4, 7],
+      rps: 0.1,
+      radius: [5, 40],
+      life: [1.5, 3],
+      v: [2, 3],
+      tha: [-40, 40],
+      // body: "./img/icon.png", // Whether to render pictures
+      // rotate: [0, 20],
+      alpha: [0.6, 0],
+      scale: [1, 0.1],
+      position: "center", // all or center or {x:1,y:1,width:100,height:100}
+      color: ["white", "#ff0000"],
+      cross: "dead", // cross or bround
+      random: 15,  // or null,
+      g: 5,    // gravity
+      // f: [2, -1], // force
+      onParticleUpdate: (ctx, particle) => {
+          ctx.beginPath();
+          ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
+          ctx.fillStyle = particle.color;
+          ctx.fill();
+          ctx.closePath();
+      }
+    };
+
     return (
       <header id="home">
-      <ParticlesBg num="2000" type="lines" bg={true} />
+      <ParticlesBg color="#2b2d2f" type="random" config={config} bg={true} />
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -38,7 +101,7 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
+               <button className="button btn project-btn" onClick= {this.forceUpdateHandler}>Reload Visual</button>
                <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>
