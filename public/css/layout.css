@@ -56,20 +56,22 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'EB Garamond', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'EB Garamond', serif;
    color: #ddd;
+   font-style: italic;
    margin: 0 auto;
    width: 70%;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
+
 }
 header .banner-text hr {
    width: 60%;
@@ -125,7 +127,7 @@ header .scrolldown a:hover { color: #0762f9; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'EB Garamond', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -192,11 +194,12 @@ ul#nav li.current a { color: #fe6928; }
 #about a:hover, #about a:focus { color: #0762f9; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'EB Garamond', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
 #about p {
+   font: 'EB Garamond', sans-serif;
    line-height: 30px;
    color: #ccc;
 }
@@ -272,7 +275,7 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 17px/24px 'EB Garamond', sans-serif;
    margin-top: 6px;
 }
 
@@ -417,7 +420,7 @@ ul#nav li.current a { color: #fe6928; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 17px/24px 'EB Garamond', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -488,6 +491,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+
+
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -824,7 +829,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 20px/36px 'EB Garamond', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }

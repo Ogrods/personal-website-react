@@ -10,7 +10,7 @@ class Portfolio extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
+              <a href={projects.url} target="_blank" title={projects.title}>
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -34,7 +34,7 @@ class Portfolio extends Component {
 
             <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               {projects}
             </div>
           </div>

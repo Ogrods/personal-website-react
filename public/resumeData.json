@@ -1,26 +1,26 @@
 {
   "main": {
     "name":"Dan Ogrodnik",
-    "description":"What the fuck did you just fucking say about me, you little bitch? I’ll have you know I graduated top of my class in the Navy Seals, and I’ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces. You are nothing to me but just another target",
+    "description":"Responsive Design, HTML, CSS, React",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":" Dan Ogrodnik is a web developer, digital artist, and audio engineer with a background in web design and e-commerce. Well versed in a variety of design and multimedia software and programming languages, Dan creates engaging, beautifully designed experiences across a multitude of platforms and formats. Originally from Connecticut, Dan holds degrees from California Institute of the Arts and the University of Hartford. He currently resides in Los Angeles where he is an avid snowboarder, cyclist, and coffee drinker.",
+    "contactmessage":"Questions, comments, concerns? Drop me a line!",
     "email": "Dan.Ogrodnik@gmail.com",
     "phone": "860-305-9789",
     "github":"https://github.com/Ogrods",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://www.DanOgrodnik.com",
     "address":{
       "street":"(Your Street)",
       "city":"Los Angeles",
       "state":"CA",
-      "zip": "90037"
+      "zip": "92325"
     },
     "website": "http://www.danogrodnik.com",
     "resumedownload":"http://www.danogrodnik.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://www.facebook.com/Ogrods",
         "className":"fa fa-facebook"
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/danogrodnik/",
         "className":"fa fa-linkedin"
       },
       {
@@ -46,26 +46,26 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Dan has a background in HTML/CSS, Javascript, Python, Ruby, React, Liquid, MySQL, Photoshop, Illustrator, MaxMSP, Ableton Live, and more.",
     "education":[
       {
         "school":"California Institute of the Arts",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "degree":"MFA, Music",
+        "graduated":"2013",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
         "school":"University of Hartford",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "degree":"BM, Music",
+        "graduated":"2009",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"University of California",
+        "title":"Accompanist ",
+        "years":"May 2016 - present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
@@ -81,62 +81,46 @@
         "level":"60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"SQL",
+        "level":"30%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"80%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"80%"
       },
       {
         "name":"PHP",
-        "level":"80%"
+        "level":"10%"
       },
       {
-        "name":"Swift",
+        "name":"Ruby",
         "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"IzelaMusic.com",
+        "category":"Music for the Post-Apocalypse",
+        "image":"izela-website-preview.jpg",
+        "url":"http://www.izelamusic.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Chester's House of Hair",
+        "category":"Haircuts, Coloring, and more",
+        "image":"chesters.jpg",
+        "url":"http://www.chestershouseofhair.com"
       },
       {
         "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "category":"Locally owned LA restaurant",
         "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"http://www.google.com"
       }
     ]
   }

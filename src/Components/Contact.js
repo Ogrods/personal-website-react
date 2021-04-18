@@ -56,7 +56,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
@@ -81,7 +81,6 @@ class Contact extends Component {
 					   <h4>Address and Phone</h4>
 					   <p className="address">
 						   {name}<br />
-						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
 					   </p>
@@ -93,7 +92,7 @@ class Contact extends Component {
                      <li>
                         <span>
                         This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum<br />
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#">2 Days Ago</a></b>
@@ -101,7 +100,7 @@ class Contact extends Component {
                      <li>
                         <span>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        eaque ipsa quae ab illo inventore veritatis et quasi <br />
                         <a href="#">http://t.co/CGIrdxIlI3</a>
                         </span>
                         <b><a href="#">3 Days Ago</a></b>
