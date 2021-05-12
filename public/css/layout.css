@@ -444,6 +444,7 @@ ul#nav li.current a { color: #fe6928; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+   max-height: 200px;
 }
 
 /* overlay */

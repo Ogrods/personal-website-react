@@ -105,8 +105,14 @@
   "portfolio":{
     "projects": [
       {
-        "title":"IzelaMusic.com",
-        "category":"Music for the Post-Apocalypse",
+        "title":"GP Electric",
+        "category":"Electric company serving Chicago and surrounding areas",
+        "image":"gp-electric-preview.jpg",
+        "url":"http://www.google.com"
+      },
+      {
+        "title":"Izela Music",
+        "category":"Folk Music from Los Angeles",
         "image":"izela-website-preview.jpg",
         "url":"http://www.izelamusic.com"
       },
@@ -115,13 +121,8 @@
         "category":"Haircuts, Coloring, and more",
         "image":"chesters.jpg",
         "url":"http://www.chestershouseofhair.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Locally owned LA restaurant",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.google.com"
       }
+
     ]
   }
 }
