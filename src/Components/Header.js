@@ -101,7 +101,7 @@ class Header extends Component {
             <h3>{description}</h3>
             <hr />
             <ul className="social">
-               <button className="button btn project-btn" onClick= {this.forceUpdateHandler}>Reload Visual</button>
+               <button className="button btn project-btn" onClick= {this.forceUpdateHandler}>Change Visual</button>
                <a href={github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
             </ul>
          </div>

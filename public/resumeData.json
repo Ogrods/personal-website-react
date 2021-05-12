@@ -24,11 +24,6 @@
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com/ogrods",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/danogrodnik/",
         "className":"fa fa-linkedin"
@@ -51,28 +46,26 @@
       {
         "school":"California Institute of the Arts",
         "degree":"MFA, Music",
-        "graduated":"2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"2013"
       },
       {
         "school":"University of Hartford",
         "degree":"BM, Music",
-        "graduated":"2009",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"2009"
       }
     ],
     "work":[
       {
         "company":"University of California",
-        "title":"Accompanist ",
+        "title":"Staff Accompanist ",
         "years":"May 2016 - present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Accompanies college-level dance classes including Contemporary, Ballet, Afro-Cuban, Partnering, Hip-Hop, Jazz, Commercial Dance, Dunham Technique, Improvisation, guest clinicians and more"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Concert Talent",
+        "title":"Chief Operating Officer",
+        "years":"June 2014 - January 2017",
+        "description":"COO of a multinational talent provider handling large-scale event production, which produced 350+ events abroad in a 3-month period for MAC Cosmetics Magic of the Night campaign"
       }
     ],
     "skills":[
