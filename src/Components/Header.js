@@ -100,10 +100,10 @@ class Header extends Component {
             <h1 className="responsive-headline">{name}</h1>
             <h3>{description}</h3>
             <hr />
-            <ul className="social">
-               <button className="button btn project-btn" onClick= {this.forceUpdateHandler}>Change Visual</button>
-               <a href={github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
-            </ul>
+            {/* <ul className="social"> */}
+               {/* <button className="button btn project-btn" onClick= {this.forceUpdateHandler}>Change Visual</button> */}
+               <a href={github} target="_blank" className="button btn github-btn"><i className="fa fa-github"></i> Github</a>
+            {/* </ul> */}
          </div>
       </div>
 
