@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+   constructor(props) {
+      super(props);
+      this.state = {
+        contactName: '',
+        contactEmail: '',
+        contactSubject: '',
+        contactMessage: ''
+      };
+  
+      this.handleChange = this.handleChange.bind(this);
+    }
+  
+    handleChange(event) {
+      const target = event.target;
+      const value = target.type === 'checkbox' ? target.checked : target.value;
+      const name = target.name;
+  
+      this.setState({
+        [name]: value
+      });
+    }
+   
   render() {
 
     if(this.props.data){
@@ -46,7 +68,7 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="email" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -56,7 +78,7 @@ class Contact extends Component {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage" onChange={this.handleChange}></textarea>
                   </div>
 
                   <div>
