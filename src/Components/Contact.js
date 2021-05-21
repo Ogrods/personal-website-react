@@ -7,12 +7,20 @@ class Contact extends Component {
         contactName: '',
         contactEmail: '',
         contactSubject: '',
-        contactMessage: ''
+        contactMessage: '',
+        mailSent: false,
+        error: null
       };
   
       this.handleChange = this.handleChange.bind(this);
     }
   
+
+    handleFormSubmit( event ) {
+      event.preventDefault();
+      console.log(this.state);
+    }
+
     handleChange(event) {
       const target = event.target;
       const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -58,7 +66,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="#" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -82,7 +90,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" onClick={e => this.handleFormSubmit(e)}>Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
