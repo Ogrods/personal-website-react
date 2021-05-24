@@ -44,12 +44,12 @@ export default function Contact2() {
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" />
+						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" required/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="email" defaultValue="" size="35" id="contactEmail" name="contactEmail" />
+						   <input type="email" defaultValue="" size="35" id="contactEmail" name="contactEmail" required/>
                   </div>
 
                   <div>
@@ -59,7 +59,7 @@ export default function Contact2() {
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage" ></textarea>
+                     <textarea cols="50" rows="10" id="contactMessage" name="contactMessage" required></textarea>
                   </div>
 
                   <div>
