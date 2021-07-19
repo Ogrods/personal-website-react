@@ -104,16 +104,22 @@
         "url":"http://www.gpelectricco.com"
       },
       {
-        "title":"Izela Music",
-        "category":"Folk Music from Los Angeles",
-        "image":"izela-website-preview.jpg",
-        "url":"http://www.izelamusic.com"
+        "title":"The Second Row NC",
+        "category":"Bar and Music club in Surf City, NC",
+        "image":"second-row.jpg",
+        "url":"http://www.secondrowsurfcity.com"
       },
       {
         "title":"Chester's House of Hair",
-        "category":"Haircuts, Coloring, and more",
+        "category":"Haircuts, Coloring, and more in Valencia, CA",
         "image":"chesters.jpg",
         "url":"http://www.chestershouseofhair.com"
+      },
+      {
+        "title":"Izela Music",
+        "category":"Folk Music from Los Angeles, CA",
+        "image":"izela-website-preview.jpg",
+        "url":"http://www.izelamusic.com"
       }
 
     ]

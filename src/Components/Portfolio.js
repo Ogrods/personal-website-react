@@ -34,7 +34,8 @@ class Portfolio extends Component {
 
             <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="bgrid-fourths s-bgrid-fourths cf"> 
+            {/* Change fourths to thirds to go back to grid */}
               {projects}
             </div>
           </div>
