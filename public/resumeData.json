@@ -56,6 +56,12 @@
     ],
     "work":[
       {
+        "company":"Straight Up Digital",
+        "title":"Front-end Developer ",
+        "years":"August 2020 - present",
+        "description":"Develops and maintains user interfaces and implements design on responsive websites, builds reusable code and libraries for future use, and optimizes applications for maximum speed and scalability"
+      },
+      {
         "company":"University of California",
         "title":"Staff Accompanist ",
         "years":"May 2016 - present",
