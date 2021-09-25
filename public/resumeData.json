@@ -104,6 +104,12 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Wildcat Tutors",
+        "category":"Tutoring collective in Los Angeles, CA",
+        "image":"wildcat-tutoring.jpg",
+        "url":"http://www.wildcattutoring.com"
+      },
+      {
         "title":"GP Electric",
         "category":"Electric company serving Chicago and surrounding areas",
         "image":"gp-electric-preview.jpg",
