@@ -19,9 +19,9 @@
     "resumedownload":"dan-ogrodnik-resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/Ogrods",
-        "className":"fa fa-facebook"
+        "name":"github",
+        "url":"https://github.com/ogrods",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
@@ -32,11 +32,6 @@
         "name":"instagram",
         "url":"http://instagram.com/ogrods",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/ogrods",
-        "className":"fa fa-github"
       }
     ]
   },
@@ -104,22 +99,28 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Milton Mattress Co.",
+        "category":"Nationwide Mattress Supplier",
+        "image":"milton-preview.jpg",
+        "url":"https://miltonsleep.com/products/milton-4-0"
+      },
+      {
         "title":"Wildcat Tutors",
         "category":"Tutoring collective in Los Angeles, CA",
         "image":"wildcat-tutoring.jpg",
         "url":"http://www.wildcattutoring.com"
       },
       {
-        "title":"The Second Row NC",
-        "category":"Bar and Music club in Surf City, NC",
-        "image":"second-row.jpg",
-        "url":"http://www.secondrowsurfcity.com"
-      },
-      {
         "title":"Chester's House of Hair",
         "category":"Haircuts, Coloring, and more in Valencia, CA",
         "image":"chesters.jpg",
         "url":"http://www.chestershouseofhair.com"
+      },
+      {
+        "title":"The Second Row NC",
+        "category":"Bar and Music club in Surf City, NC",
+        "image":"second-row.jpg",
+        "url":"http://www.secondrowsurfcity.com"
       },
       {
         "title":"Izela Music",
