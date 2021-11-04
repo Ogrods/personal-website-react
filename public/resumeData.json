@@ -51,6 +51,12 @@
     ],
     "work":[
       {
+        "company":"ANova Digital, LLC",
+        "title":"Junior Front-end Developer ",
+        "years":"October 2021 - present",
+        "description":"Utilizes Shopify and Wordpress to create and maintain user interfaces and implement design."
+      },
+      {
         "company":"Straight Up Digital",
         "title":"Front-end Developer ",
         "years":"August 2020 - present",
@@ -105,8 +111,14 @@
         "url":"https://miltonsleep.com/products/milton-4-0"
       },
       {
+        "title":"Heartstrong CBD",
+        "category":"CBD Sleep Drops, Tinctures and More",
+        "image":"heartstrong-preview.jpg",
+        "url":"https://www.heartstrongcbd.com"
+      },
+      {
         "title":"Wildcat Tutoring",
-        "category":"Tutoring collective in Los Angeles, CA",
+        "category":"Tutoring Collective in Los Angeles, CA",
         "image":"wildcat-tutoring.jpg",
         "url":"http://www.wildcattutoring.com"
       },
