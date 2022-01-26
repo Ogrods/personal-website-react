@@ -136,18 +136,17 @@
         "url":"http://www.chestershouseofhair.com"
       },
       {
-        "title":"The Second Row NC",
-        "category":"Bar and Music club in Surf City, NC",
-        "image":"second-row.jpg",
-        "url":"http://www.secondrowsurfcity.com"
-      },
-      {
         "title":"High Conscious",
         "category":"Forex Trading Collective",
         "image":"hc-preview.jpg",
         "url":"https://highconscioustrading.com"
+      },
+      {
+        "title":"The Second Row NC",
+        "category":"Bar and Music club in Surf City, NC",
+        "image":"second-row.jpg",
+        "url":"http://www.secondrowsurfcity.com"
       }
-
     ]
   }
 }
