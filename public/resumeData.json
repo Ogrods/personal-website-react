@@ -1,151 +1,150 @@
 {
   "main": {
-    "name":"Dan Ogrodnik",
-    "description":"Responsive Design, HTML, CSS, React",
-    "image":"profilepic.jpg",
-    "bio":" Dan Ogrodnik is a web developer, digital artist, and audio engineer with a background in web design and e-commerce. Well versed in a variety of design and multimedia software and programming languages, Dan creates engaging, beautifully designed experiences across a multitude of platforms and formats. Originally from Connecticut, Dan holds degrees from California Institute of the Arts and the University of Hartford. He currently resides in Los Angeles where he is an avid snowboarder, cyclist, and coffee drinker.",
-    "contactmessage":"Questions, comments, concerns? Drop me a line!",
+    "name": "Dan Ogrodnik",
+    "description": "Responsive Design, HTML, CSS, React",
+    "image": "profilepic.jpg",
+    "bio": " Dan Ogrodnik is a web developer, digital artist, and audio engineer with a background in web design and e-commerce. Well versed in a variety of design and multimedia software and programming languages, Dan creates engaging, beautifully designed experiences across a multitude of platforms and formats. Originally from Connecticut, Dan holds degrees from California Institute of the Arts and the University of Hartford. He currently resides in Los Angeles where he is an avid snowboarder, cyclist, and coffee drinker.",
+    "contactmessage": "Questions, comments, concerns? Drop me a line!",
     "email": "Dan.Ogrodnik@gmail.com",
     "phone": "860-305-9789",
-    "github":"https://github.com/Ogrods",
-    "project":"https://www.DanOgrodnik.com",
-    "address":{
-      "street":"(Your Street)",
-      "city":"Los Angeles",
-      "state":"CA",
+    "github": "https://github.com/Ogrods",
+    "project": "https://www.DanOgrodnik.com",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Los Angeles",
+      "state": "CA",
       "zip": "92325"
     },
     "website": "http://www.danogrodnik.com",
-    "resumedownload":"dan-ogrodnik-resume.pdf",
-    "social":[
+    "resumedownload": "dan-ogrodnik-resume.pdf",
+    "social": [
       {
-        "name":"github",
-        "url":"https://github.com/ogrods",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/ogrods",
+        "className": "fa fa-github"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/danogrodnik/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/danogrodnik/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/ogrods",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "http://instagram.com/ogrods",
+        "className": "fa fa-instagram"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Dan has a background in HTML, CSS, Javascript, Python, Ruby, React, Liquid, Shopify, Wordpress, MySQL, Bootstrap, Photoshop, Illustrator, MaxMSP, Ableton Live, and more.",
-    "education":[
+  "resume": {
+    "skillmessage": "Dan has a background in HTML, CSS, Javascript, Python, Ruby, React, Liquid, Shopify, Wordpress, MySQL, Bootstrap, Photoshop, Illustrator, MaxMSP, Ableton Live, and more.",
+    "education": [
       {
-        "school":"California Institute of the Arts",
-        "degree":"MFA, Music",
-        "graduated":"2013"
+        "school": "California Institute of the Arts",
+        "degree": "MFA, Music",
+        "graduated": "2013"
       },
       {
-        "school":"University of Hartford",
-        "degree":"BM, Music",
-        "graduated":"2009"
+        "school": "University of Hartford",
+        "degree": "BM, Music",
+        "graduated": "2009"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"ANova Digital, LLC",
-        "title":"Junior Front-end Developer ",
-        "years":"October 2021 - present",
-        "description":"Utilizes Shopify and Wordpress to create and maintain user interfaces and implement front-end website design."
+        "company": "Fervor Creative",
+        "title": "Front-end Developer ",
+        "years": "April 2022 - present",
+        "description": "Builds and maintains websites and databases using Wordpress, Drupal, and custom PHP."
       },
       {
-        "company":"Straight Up Digital",
-        "title":"Front-end Developer ",
-        "years":"August 2020 - present",
-        "description":"Develops and maintains user interfaces and implements design, builds reusable code and libraries for future use, and optimizes applications for maximum speed and scalability"
+        "company": "ANova Digital, LLC",
+        "title": "Junior Front-end Developer ",
+        "years": "October 2021 - present",
+        "description": "Utilizes Shopify and Wordpress to create and maintain user interfaces and implement front-end website design."
       },
       {
-        "company":"University of California",
-        "title":"Staff Accompanist ",
-        "years":"May 2016 - present",
-        "description":"Accompanies college-level dance classes including Contemporary, Ballet, Afro-Cuban, Partnering, Hip-Hop, Jazz, Commercial Dance, Dunham Technique, Improvisation, guest clinicians and more"
+        "company": "Straight Up Digital",
+        "title": "Front-end Developer ",
+        "years": "August 2020 - present",
+        "description": "Develops and maintains user interfaces and implements design, builds reusable code and libraries for future use, and optimizes applications for maximum speed and scalability"
       },
       {
-        "company":"Concert Talent",
-        "title":"Chief Operating Officer",
-        "years":"June 2014 - January 2017",
-        "description":"COO of a multinational talent provider handling large-scale event production, which produced 350+ events abroad in a 3-month period for MAC Cosmetics Magic of the Night campaign"
+        "company": "University of California",
+        "title": "Staff Accompanist ",
+        "years": "May 2016 - present",
+        "description": "Accompanies college-level dance classes including Contemporary, Ballet, Afro-Cuban, Partnering, Hip-Hop, Jazz, Commercial Dance, Dunham Technique, Improvisation, guest clinicians and more"
+      },
+      {
+        "company": "Concert Talent",
+        "title": "Chief Operating Officer",
+        "years": "June 2014 - January 2017",
+        "description": "COO of a multinational talent provider handling large-scale event production, which produced 350+ events abroad in a 3-month period for MAC Cosmetics Magic of the Night campaign"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Python",
-        "level":"60%"
+        "name": "Python",
+        "level": "60%"
       },
       {
-        "name":"SQL",
-        "level":"30%"
+        "name": "SQL",
+        "level": "30%"
       },
       {
-        "name":"ReactJs",
-        "level":"80%"
+        "name": "ReactJs",
+        "level": "80%"
       },
       {
-        "name":"CSS",
-        "level":"80%"
+        "name": "CSS",
+        "level": "80%"
       },
       {
-        "name":"PHP",
-        "level":"10%"
+        "name": "PHP",
+        "level": "10%"
       },
       {
-        "name":"Ruby",
-        "level":"50%"
+        "name": "Ruby",
+        "level": "50%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Milton Sleep Co.",
-        "category":"Nationwide Mattress Supplier",
-        "image":"milton-preview.jpg",
-        "url":"https://miltonsleep.com/products/milton-4-0"
+        "title": "The Station by Alta",
+        "category": "Luxury Apartments in Nashville, TN",
+        "image": "station-preview.jpg",
+        "url": "https://thestationbyalta.com/"
       },
       {
-        "title":"Heartstrong CBD",
-        "category":"CBD Sleep Drops, Tinctures and More",
-        "image":"heartstrong-preview.jpg",
-        "url":"https://www.heartstrongcbd.com"
+        "title": "Milton Sleep Co.",
+        "category": "Nationwide Mattress Supplier",
+        "image": "milton-preview.jpg",
+        "url": "https://miltonsleep.com/products/milton-4-0"
       },
       {
-        "title":"Wildcat Tutoring",
-        "category":"Tutoring Collective in Los Angeles, CA",
-        "image":"wildcat-tutoring.jpg",
-        "url":"http://www.wildcattutoring.com"
+        "title": "Heartstrong CBD",
+        "category": "CBD Sleep Drops, Tinctures and More",
+        "image": "heartstrong-preview.jpg",
+        "url": "https://www.heartstrongcbd.com"
       },
       {
-        "title":"NeoGen Life",
-        "category":"Plant Based Superfood Company",
-        "image":"neogen-preview.jpg",
-        "url":"https://neogenlife.com/collections/health-bundles/products/ultimate-health-bundle"
-      },
-
-      {
-        "title":"Chester's House of Hair",
-        "category":"Haircuts, Coloring, and more in Valencia, CA",
-        "image":"chesters.jpg",
-        "url":"http://www.chestershouseofhair.com"
+        "title": "Wildcat Tutoring",
+        "category": "Tutoring Collective in Los Angeles, CA",
+        "image": "wildcat-tutoring.jpg",
+        "url": "http://www.wildcattutoring.com"
       },
       {
-        "title":"High Conscious",
-        "category":"Forex Trading Collective",
-        "image":"hc-preview.jpg",
-        "url":"https://highconscioustrading.com"
+        "title": "NeoGen Life",
+        "category": "Plant Based Superfood Company",
+        "image": "neogen-preview.jpg",
+        "url": "https://neogenlife.com/collections/health-bundles/products/ultimate-health-bundle"
       },
       {
-        "title":"The Second Row NC",
-        "category":"Bar and Music club in Surf City, NC",
-        "image":"second-row.jpg",
-        "url":"http://www.secondrowsurfcity.com"
+        "title": "Chester's House of Hair",
+        "category": "Haircuts, Coloring, and more in Valencia, CA",
+        "image": "chesters.jpg",
+        "url": "http://www.chestershouseofhair.com"
       }
     ]
   }
